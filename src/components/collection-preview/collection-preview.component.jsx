@@ -11,7 +11,6 @@ const CollectionPreview = ({ title, items }) => (
         .map(({ id, ...otherProps }) => (
           <CollectionItem key={id} {...otherProps} />
         ))}
-      dd
     </div>
   </div>
 );
